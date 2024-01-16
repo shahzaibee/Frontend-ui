@@ -7,7 +7,7 @@ import ServicePic3 from "../../public/images/service-3.jpg";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[850px] mx-auto">
+    <div className="w-full h-[2000px]  md:h-[850px] mx-auto overflow-x-hidden">
       {/* text */}
       <div className="flex flex-col justify-center py-6 md:py-14 items-center space-y-4 h-[150px]">
         <h1 className="text-5xl font-bold text-[#181e0d]">Our Services</h1>

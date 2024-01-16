@@ -4,7 +4,7 @@ import leaf from "../../public/images/leaf.jpg";
 
 const Service = () => {
   return (
-    <div className="w-full h-[600px] mx-auto md:mt-10">
+    <div className="w-full h-[800px] mx-auto md:mt-10">
       <div className="w-[80%] mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="md:w-[45%] h-[600px] gap-y-10 lg:gap-y-5 flex flex-col justify-center items-start">
           <div>

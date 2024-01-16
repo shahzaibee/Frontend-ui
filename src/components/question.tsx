@@ -1,8 +1,8 @@
 import React from "react";
 
 const Question = () => {
-  return (
-    <div className="custom-image h-[400px] md:mt-0 mt-[600px]">
+  return ( 
+    <div className="custom-image h-[400px] md:mt-0 mt-[400px] overflow-x-hidden">
       <div className="flex justify-center items-center">
         <div className="w-[460px] md:p-2 p-4 md:gap-y-10 gap-y-2  h-[400px] flex flex-col justify-center items-center">
           <h1 className="text-black font-extrabold  text-2xl md:text-6xl">

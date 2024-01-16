@@ -3,7 +3,7 @@ import Navlogo from "../../public/images/logo-white.svg";
 import Image from "next/image";
 const footer = () => {
   return (
-    <div className=" w-[90%] h-[420px] md:h-24 mx-auto flex flex-col md:flex-row justify-evenly items-center mt-24 md:mt-0">
+    <div className=" w-[90%] h-[420px] md:h-24 mx-auto flex flex-col md:flex-row justify-evenly items-center mt-10 md:mt-0 overflow-x-hidden">
       <div>
         <u className="flex flex-col md:flex-row gap-x-10 list-none no-underline gap-y-3 md:gap-y-0">
           <li>Home</li>

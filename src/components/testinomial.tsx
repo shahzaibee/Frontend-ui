@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Testinomial = () => {
   return (
-    <div className="md:h-[350px] h-[350px] w-full bg-[#f6f8f5] mt-[1300px] md:mt-0">
+    <div className="md:h-[350px] h-[350px] w-full bg-[#f6f8f5] mt-[20px] md:mt-0 overflow-x-hidden">
       <div className="flex flex-col justify-center gap-y-4 lg:py-4 items-center mx-auto md:p-10 h-[350px] w-[400px] md:w-[500px]">
         <div className="text-[#c5cdbf] flex flex-col justify-center items-center gap-y-5">
           <Image src={testiPic} alt="test" width={50} height={50} />

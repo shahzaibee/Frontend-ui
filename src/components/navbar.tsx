@@ -7,8 +7,8 @@ import { GiFullPizza } from "react-icons/gi";
 
 const Navbar = () => {
   return (
-    <div className="custom-img h-[500px] md:h-[650px]">
-      <div className="relative top-0 max-w-full h-[5rem] mx-auto px-6 md:px-10 flex md:flex justify-between items-center">
+    <div className="custom-img h-[500px] md:h-[650px] mx-auto overflow-x-hidden">
+      <div className="relative top-0 w-[100%] h-[5rem] mx-auto px-6 md:px-10 flex md:flex justify-between items-center">
         <div>
           <Image
             src={Navlogo}
@@ -58,7 +58,7 @@ const Navbar = () => {
           </button>
         </div>
         {/* Button div */}
-        <div className="flex justify-between fixed top-[35%] right-6  md:top-[44%] md:-right-[2px]  items-center gap-2 bg-[#ffffff] group text-black  px-3 py-2 rounded-md md:hover:bg-blue-500 md:hover:text-white">
+        <div className="flex justify-between fixed top-[35%] right-6 md:top-[44%] md:-right-[2px]  items-center gap-2 bg-[#ffffff] group text-black  px-3 py-2 rounded-md md:hover:bg-blue-500 md:hover:text-white">
           <div className="flex gap-2 md:gap-3">
             <div>
               <GiFullPizza className="text-xl text-blue-700 group-hover:text-white" />
